@@ -1,0 +1,457 @@
+<!doctype html>  
+ 
+<!--[if lt IE 7 ]> <html lang="en" class="no-js ie6"> <![endif]-->
+<!--[if IE 7 ]>    <html lang="en" class="no-js ie7"> <![endif]-->
+<!--[if IE 8 ]>    <html lang="en" class="no-js ie8"> <![endif]-->
+<!--[if IE 9 ]>    <html lang="en" class="no-js ie9"> <![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!--> <html lang="en" class="no-js"> <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <title>jQuery Multiple Filter</title>
+ 
+
+  <!--  Mobile viewport optimized: j.mp/bplateviewport -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Place favicon.ico & apple-touch-icon.png in the root of your domain and delete these references -->
+  <link rel="shortcut icon" href="favicon.ico">
+  <link rel="apple-touch-icon" href="apple-touch-icon.png">
+
+
+  <!-- CSS : implied media="all" -->
+  <link rel="stylesheet" href="css/style.css?v=2">
+  
+  
+  <link href='http://fonts.googleapis.com/css?family=Lora&v2' rel='stylesheet' type='text/css'>
+
+  <!-- Uncomment if you are specifically targeting less enabled mobile browsers
+ <link rel="stylesheet" media="handheld" href="css/handheld.css?v=2">  -->
+ 
+  <!-- All JavaScript at the bottom, except for Modernizr which enables HTML5 elements & feature detects -->
+  <script src="http://www.webegg.co.uk/wp-content/themes/paulseys/js/libs/modernizr-1.6.min.js"></script>
+ 
+
+ 
+  </head>
+
+<body>
+<div id="container" class="entry">
+   
+
+    <div id="main">
+        <div class="gradup">
+            <div class="onethird plus right">
+
+                <h3>Filter</h3>
+                <ul class="filters showall">
+                    <li><input type="checkbox" id="filterIDall" value="all" class="dynamicFilterInput"><label for="filterIDall">Show all</label><span>0</span></li>
+                </ul>
+
+        <h5>Customer</h5>
+
+        <ul class="filters">
+          <li><input type="checkbox" id="filterIDgoogle" value="google" class="dynamicFilterInput"><label for="filterIDgoogle">Google</label><span>0</span></li>
+          <li><input type="checkbox" id="filterIDyahoo" value="yahoo" class="dynamicFilterInput"><label for="filterIDyahoo">Yahoo</label><span>0</span></li>
+          <li><input type="checkbox" id="filterIDmicrosoft" value="microsoft" class="dynamicFilterInput"><label for="filterIDmicrosoft">Microsoft</label><span>0</span></li>
+          <li><input type="checkbox" id="filterIDgeewiz" value="geewiz" class="dynamicFilterInput"><label for="filterIDgeewiz">Geewiz Inc</label><span>0</span></li>
+          <li><input type="checkbox" id="filterIDapple" value="apple" class="dynamicFilterInput"><label for="filterIDgeewiz">Apple</label><span>0</span></li>
+
+        </ul>
+
+        <h5>Service</h5>
+        <ul class="filters">
+          <li><input type="checkbox" id="filterIDflat-design" value="flat-design" class="dynamicFilterInput"><label for="filterIDflat-design">Flat Design</label><span>0</span></li>
+          <li><input type="checkbox" id="filterIDworking-design" value="working-design" class="dynamicFilterInput"><label for="filterIDworking-design">Working Design</label><span>0</span></li>
+          <li><input type="checkbox" id="filterIDinteraction-design" value="interaction-design" class="dynamicFilterInput"><label for="filterIDinteraction-design">Interaction Design</label><span>0</span></li>
+          <li><input type="checkbox" id="filterIDback-end-programming" value="back-end-programming" class="dynamicFilterInput"><label for="filterIDback-end-programming">Back End Coding</label><span>0</span></li>
+          <li><input type="checkbox" id="filterIDwriting" value="writing" class="dynamicFilterInput"><label for="filterIDwriting">Content Writing</label><span>0</span></li>
+		  <li><input type="checkbox" id="filterIDadministration" value="administration" class="dynamicFilterInput"><label for="filterIDwriting">Administration</label><span>0</span></li>
+        </ul>
+
+        <h5>Year</h5>
+        <ul class="filters">
+          <li><input type="checkbox" id="filterID2011" value="2011" class="dynamicFilterInput"><label for="filterID2011">2011</label><span>0</span></li>
+          <li><input type="checkbox" id="filterID2010" value="2010" class="dynamicFilterInput"><label for="filterID2010">2010</label><span>0</span></li>
+          <li><input type="checkbox" id="filterID2009" value="2009" class="dynamicFilterInput"><label for="filterID2009">2009</label><span>0</span></li>
+          <li><input type="checkbox" id="filterID2008" value="2008" class="dynamicFilterInput"><label for="filterID2008">2008</label><span>0</span></li>
+          <li><input type="checkbox" id="filterID2007" value="2007" class="dynamicFilterInput"><label for="filterID2007">2007</label><span>0</span></li>
+          <li><input type="checkbox" id="filterID2006" value="2006" class="dynamicFilterInput"><label for="filterID2006">2006</label><span>0</span></li>
+          <li><input type="checkbox" id="filterID2005" value="2005" class="dynamicFilterInput"><label for="filterID2005">2005</label><span>0</span></li>
+
+        </ul>
+                <div class="filterThis"></div>
+            </div>
+
+            <div class="twothird plus left">
+                <h2>Projects completed</h2>
+         
+         
+         
+         
+             
+           
+                <div id="post-12" class="post-12 page type-page status-publish hentry">
+                    <div class="entry-made played">
+                        <p>Whoah! Thats a big fat Nullity. Try clicking a few more boxes ...</p>
+
+                                                                    </div>
+                </div>
+                                       
+                <div class="entry-made">
+               
+       
+                    <ul id="holder-init" class="filterThis showThis">
+                        <li class=" 2011 working-design microsoft flat-design">
+                            <a href="http://www.webegg.co.uk"><img src="images/testimage-smaller.jpg" alt="blog post" /></a>
+
+                            <div class="caption">
+                                <h3><a href="http://www.webegg.co.uk">Microsoft Homepage</a></h3>
+                            </div>
+                        </li>
+
+                        <li class=" 2011 working-design microsoft flat-design">
+                            <a href="http://www.webegg.co.uk"><img src="images/testimage-smaller.jpg" alt="blog post" /></a>
+
+                            <div class="caption">
+                                <h3><a href="http://www.webegg.co.uk">Windows Promotion</a></h3>
+                            </div>
+                        </li>
+
+                        <li class=" 2010 working-design yahoo flat-design">
+                            <a href="http://www.webegg.co.uk"><img src="images/testimage-smaller.jpg" alt="blog post" /></a>
+
+                            <div class="caption">
+                                <h3><a href="http://www.webegg.co.uk">Re-design of YUI</a></h3>
+                            </div>
+                        </li>
+
+                    </ul>  
+                </div><!-- .entry-content -->
+
+            <div id="holderwrap">
+       
+             
+       
+                <ul id="holder" class="filterThis">
+                    <li class=" 2011 working-design microsoft flat-design">
+                        <a href="http://www.webegg.co.uk"><img src="images/testimage-smaller.jpg" alt="blog post" /></a>
+
+                        <div class="caption">
+                            <h3><a href="http://www.webegg.co.uk">Microsoft Homepage</a></h3>
+                        </div>
+					</li>
+
+
+                    <li class=" 2011 working-design microsoft flat-design">
+                        <a href="http://www.webegg.co.uk"><img src="images/testimage-smaller.jpg" alt="blog post" /></a>
+
+                        <div class="caption">
+                            <h3><a href="http://www.webegg.co.uk">Windows Promotion</a></h3>
+                        </div>
+					</li>
+
+
+                    <li class=" 2010 working-design yahoo flat-design">
+                        <a href="http://www.webegg.co.uk"><img src="images/testimage-smaller.jpg" alt="blog post" /></a>
+
+                        <div class="caption">
+                            <h3><a href="http://www.webegg.co.uk">Re-design of YUI</a></h3>
+                        </div>
+					</li>
+
+
+                    <li class=" 2010 back-end-programming microsoft flat-design">
+                        <a href="http://www.webegg.co.uk"><img src="images/testimage-smaller.jpg" alt="blog post" /></a>
+
+                        <div class="caption">
+                            <h3><a href="http://www.webegg.co.uk">Windows 7</a></h3>
+                        </div>
+					</li>
+
+
+                    <li class=" 2010 yahoo flat-design">
+                        <a href="http://www.webegg.co.uk"><img src="images/testimage-smaller.jpg" alt="blog post" /></a>
+
+                        <div class="caption">
+                            <h3><a href="http://www.webegg.co.uk">YQL Interface</a></h3>
+                        </div>
+					</li>
+
+
+                    <li class=" 2010 yahoo flat-design">
+                        <a href="http://www.webegg.co.uk"><img src="images/testimage-smaller.jpg" alt="blog post" /></a>
+
+                        <div class="caption">
+                            <h3><a href="http://www.webegg.co.uk">Yahoo Blog</a></h3>
+                        </div>
+					</li>
+
+
+                    <li class=" 2010 yahoo flat-design">
+                        <a href="http://www.webegg.co.uk"><img src="images/testimage-smaller.jpg" alt="blog post" /></a>
+
+                        <div class="caption">
+                            <h3><a href="http://www.webegg.co.uk">Front End Development leaflet</a></h3>
+                        </div>
+					</li>
+
+
+                    <li class=" 2010 administration yahoo flat-design">
+                        <a href="http://www.webegg.co.uk"><img src="images/testimage-smaller.jpg" alt="blog post" /></a>
+
+                        <div class="caption">
+                            <h3><a href="http://www.webegg.co.uk">HTML File System</a></h3>
+                        </div>
+					</li>
+
+
+                    <li class=" 2010 yahoo flat-design">
+                        <a href="http://www.webegg.co.uk"><img src="images/testimage-smaller.jpg" alt="blog post" /></a>
+
+                        <div class="caption">
+                            <h3><a href="http://www.webegg.co.uk">Yahoo Answers</a></h3>
+                        </div>
+					</li>
+
+
+                    <li class=" 2009 interaction-design yahoo flat-design">
+                        <a href="http://www.webegg.co.uk"><img src="images/testimage-smaller.jpg" alt="blog post" /></a>
+
+                        <div class="caption">
+                            <h3><a href="http://www.webegg.co.uk">Yahoo Mail</a></h3>
+                        </div>
+					</li>
+
+
+                    <li class=" 2010 yahoo flat-design">
+                        <a href="http://www.webegg.co.uk"><img src="images/testimage-smaller.jpg" alt="blog post" /></a>
+
+                        <div class="caption">
+                            <h3><a href="http://www.webegg.co.uk">Yahoo Weather</a></h3>
+                        </div>
+					</li>
+
+
+                    <li class=" 2009 writing design interaction-design geewiz flat-design">
+                        <a href="http://www.webegg.co.uk"><img src="images/testimage-smaller.jpg" alt="blog post" /></a>
+
+                        <div class="caption">
+                            <h3><a href="http://www.webegg.co.uk">Transition Munition</a></h3>
+                        </div>
+					</li>
+
+
+                    <li class=" 2009 yahoo flat-design">
+                        <a href="http://www.webegg.co.uk"><img src="images/testimage-smaller.jpg" alt="blog post" /></a>
+
+                        <div class="caption">
+                            <h3><a href="http://www.webegg.co.uk">Yahoo UK</a></h3>
+                        </div>
+					</li>
+
+
+                    <li class=" 2009 writing administration microsoft interaction-design flat-design">
+                        <a href="http://www.webegg.co.uk"><img src="images/testimage-smaller.jpg" alt="blog post" /></a>
+
+                        <div class="caption">
+                            <h3><a href="http://www.webegg.co.uk">IE6 Downfall</a></h3>
+                        </div>
+					</li>
+
+
+                    <li class=" 2008 back-end-programming interaction-design yahoo">
+                        <a href="http://www.webegg.co.uk"><img src="images/testimage-smaller.jpg" alt="blog post" /></a>
+
+                        <div class="caption">
+                            <h3><a href="http://www.webegg.co.uk">Sustainable Development Organisation</a></h3>
+                        </div>
+					</li>
+
+
+                    <li class=" 2005 writing interaction-design yahoo">
+                        <a href="http://www.webegg.co.uk"><img src="images/testimage-smaller.jpg" alt="blog post" /></a>
+
+                        <div class="caption">
+                            <h3><a href="http://www.webegg.co.uk">Blog Post</a></h3>
+                        </div>
+					</li>
+
+
+                    <li class=" 2008 yahoo flat-design">
+                        <a href="http://www.webegg.co.uk"><img src="images/testimage-smaller.jpg" alt="blog post" /></a>
+
+                        <div class="caption">
+                            <h3><a href="http://www.webegg.co.uk">Presentation Slides</a></h3>
+                        </div>
+					</li>
+
+
+                    <li class=" 2009 interaction-design yahoo flat-design">
+                        <a href="http://www.webegg.co.uk"><img src="images/testimage-smaller.jpg" alt="blog post" /></a>
+
+                        <div class="caption">
+                            <h3><a href="http://www.webegg.co.uk">Click Through Presentation</a></h3>
+                        </div>
+					</li>
+
+
+                    <li class=" 2008 flat-design interaction-design yahoo">
+                        <a href="http://www.webegg.co.uk"><img src="images/testimage-smaller.jpg" alt="blog post" /></a>
+
+                        <div class="caption">
+                            <h3><a href="http://www.webegg.co.uk">Interface Components</a></h3>
+                        </div>
+					</li>
+
+
+                    <li class=" 2008 working-design google">
+                        <a href="http://www.webegg.co.uk"><img src="images/testimage-smaller.jpg" alt="blog post" /></a>
+
+                        <div class="caption">
+                            <h3><a href="http://www.webegg.co.uk">Google +</a></h3>
+                        </div>
+					</li>
+
+
+                    <li class=" 2008 interaction-design microsoft">
+                        <a href="http://www.webegg.co.uk"><img src="images/testimage-smaller.jpg" alt="blog post" /></a>
+
+                        <div class="caption">
+                            <h3><a href="http://www.webegg.co.uk">Windows Phone</a></h3>
+                        </div>
+					</li>
+
+
+                    <li class=" 2008 interaction-design google">
+                        <a href="http://www.webegg.co.uk"><img src="images/testimage-smaller.jpg" alt="blog post" /></a>
+
+                        <div class="caption">
+                            <h3><a href="http://www.webegg.co.uk">Touchscreen Interface</a></h3>
+                        </div>
+					</li>
+
+
+                    <li class=" 2008 apple google">
+                        <a href="http://www.webegg.co.uk"><img src="images/testimage-smaller.jpg" alt="blog post" /></a>
+
+                        <div class="caption">
+                            <h3><a href="http://www.webegg.co.uk">Merger Talks</a></h3>
+                        </div>
+					</li>
+
+
+                    <li class=" 2008 administration apple">
+                        <a href="http://www.webegg.co.uk"><img src="images/testimage-smaller.jpg" alt="blog post" /></a>
+
+                        <div class="caption">
+                            <h3><a href="http://www.webegg.co.uk">Market Saturation Enquiry</a></h3>
+                        </div>
+					</li>
+
+
+                    <li class=" 2007 flat-design google">
+                        <a href="http://www.webegg.co.uk"><img src="images/testimage-smaller.jpg" alt="blog post" /></a>
+
+                        <div class="caption">
+                            <h3><a href="http://www.webegg.co.uk">Google -</a></h3>
+                        </div>
+					</li>
+
+
+                    <li class=" 2006 working-design microsoft interaction-design">
+                        <a href="http://www.webegg.co.uk"><img src="images/testimage-smaller.jpg" alt="blog post" /></a>
+
+                        <div class="caption">
+                            <h3><a href="http://www.webegg.co.uk">Microsoft Site</a></h3>
+                        </div>
+					</li>
+
+
+                    <li class=" 2006 geewiz flat-design">
+                        <a href="http://www.webegg.co.uk"><img src="images/testimage-smaller.jpg" alt="blog post" /></a>
+
+                        <div class="caption">
+                            <h3><a href="http://www.webegg.co.uk">Quick Update</a></h3>
+                        </div>
+					</li>
+
+
+                    <li class=" 2006 writing working-design microsoft interaction-design">
+                        <a href="http://www.webegg.co.uk"><img src="images/testimage-smaller.jpg" alt="blog post" /></a>
+
+                        <div class="caption">
+                            <h3><a href="http://www.webegg.co.uk">Company Progress Report</a></h3>
+
+                        </div>
+					</li>
+
+
+                    <li class=" 2006 geewiz working-design">
+                        <a href="http://www.webegg.co.uk"><img src="images/testimage-smaller.jpg" alt="blog post" /></a>
+
+                        <div class="caption">
+                            <h3><a href="">Screenshot with iPhone</a></h3>
+
+                        </div>
+					</li>
+
+
+                    <li class=" 2006 geewiz interaction-design">
+                        <a href="http://www.webegg.co.uk"><img src="images/testimage-smaller.jpg" alt="blog post" /></a>
+
+                        <div class="caption">
+                            <h3><a href="http://www.webegg.co.uk">Fixing Interface</a></h3>
+                        </div>
+					</li>
+
+
+                    <li class=" 2006 writing geewiz">
+                        <a href="http://www.webegg.co.uk"><img src="images/testimage-smaller.jpg" alt="blog post" /></a>
+
+                        <div class="caption">
+                            <h3><a href="http://www.webegg.co.uk">Blog Post</a></h3>
+                        </div>
+					</li>
+
+
+                    <li class=" 2006 geewiz administration">
+                        <a href="http://www.webegg.co.uk"><img src="images/testimage-smaller.jpg" alt="blog post" /></a>
+
+                        <div class="caption">
+                            <h3><a href="http://www.webegg.co.uk">Version Control</a></h3>
+                        </div>
+					</li>
+
+
+                    <li class=" 2005 geewiz flat-design">
+                        <a href="http://www.webegg.co.uk"><img src="images/testimage-smaller.jpg" alt="blog post" /></a>
+
+                        <div class="caption">
+                            <h3><a href="http://www.webegg.co.uk">Re-design on a Budget</a></h3>
+
+                        </div>
+					</li>
+
+ 
+                </ul>
+            </div>
+        </div>
+
+           
+        <div class="clearboth"></div>
+    </div>
+
+</div>
+
+
+  <!-- Grab Google CDN's jQuery. fall back to local if necessary -->
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.js"></script>
+  <script>!window.jQuery && document.write(unescape('%3Cscript src="js/libs/jquery-1.6.2.js"%3E%3C/script%3E'))</script>
+ 
+ <!-- scripts concatenated and minified via ant build script-->
+ <script src="js/plugins.js"></script>
+ <script src="js/script.js"></script>
+ 
+ </body>
+
+</html>
